@@ -45,6 +45,6 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        image: shubhszone/gradle-demo-app:v1
+        tags: shubhszone/gradle-demo-app:v1
 
 
