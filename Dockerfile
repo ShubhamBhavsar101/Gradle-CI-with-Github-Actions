@@ -4,7 +4,7 @@ WORKDIR /usr/app
 
 CMD ["ls", "-la"]
 
-COPY ./build/libs/*.jar /usr/app/my-app-1.0-SNAPSHOT.jar
+COPY build/libs/*.jar /usr/app/my-app-1.0-SNAPSHOT.jar
 
 EXPOSE 8080
 
